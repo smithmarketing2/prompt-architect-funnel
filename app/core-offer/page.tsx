@@ -155,6 +155,15 @@ export default function CoreOfferPage() {
           Prompt Engineering Mastery is an educational course. Results depend on individual effort, implementation, and market conditions. We do not guarantee specific income, traffic, or business outcomes. AI models and platforms evolve; techniques taught are current as of the course publish date.
         </div>
       </section>
+
+      {/* Opt-out Link */}
+      <section className="py-8 px-4 bg-white border-t border-slate-200">
+        <div className="max-w-3xl mx-auto text-center">
+          <a href="/" className="text-gray-500 hover:text-gray-400 text-sm underline">
+            I'm not interested in this offer
+          </a>
+        </div>
+      </section>
     </main>
   );
 }

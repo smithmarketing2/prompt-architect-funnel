@@ -138,6 +138,15 @@ export default function TripwirePage() {
           Results from using The Prompt Fix-It Kit vary based on individual effort, niche, and implementation. This toolkit teaches prompt improvement techniques but does not guarantee specific business outcomes, income levels, or AI performance. AI tools and models change frequently; techniques should be adapted as platforms evolve.
         </div>
       </section>
+
+      {/* Opt-out Link */}
+      <section className="py-8 px-4 bg-white border-t border-slate-200">
+        <div className="max-w-3xl mx-auto text-center">
+          <a href="/" className="text-gray-500 hover:text-gray-400 text-sm underline">
+            I'm not interested in this offer
+          </a>
+        </div>
+      </section>
     </main>
   );
 }
